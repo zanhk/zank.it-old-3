@@ -220,7 +220,7 @@ a:hover {
 	visibility: hidden;
 	width: 10px;
 	height: 40px;
-	z-index: 251;
+	z-index: 50;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: 10px 40px;
@@ -494,7 +494,7 @@ a:hover {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: rgba(20, 21, 26, 0.96);
+	background: rgba(0, 0, 0, 0); /* (20, 21, 26, 0.96) */
 	width: 100%;
 	z-index: 2002;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -517,7 +517,7 @@ a:hover {
 .cd-header.is-fixed {
 	position: fixed;
 	top: -100px;
-	background-color: rgba(20, 21, 26, 0.96);
+	background-color: rgba(0, 0, 0, 0); /* (20, 21, 26, 0.96) */
 	-webkit-transition: -webkit-transform 0.3s;
 	-moz-transition: -moz-transform 0.3s;
 	transition: transform 0.3s;
@@ -597,7 +597,7 @@ a:hover {
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: rgba(20, 21, 26,0.6);
+	background: rgba(20, 21, 26,0.6); /* (20, 21, 26,0.6) */
 	z-index: -1;
 	-webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
 	transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;

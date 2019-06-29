@@ -7,6 +7,16 @@
 
 <head>
 
+	<!-- RELOAD PAGE ONCE FOR A BUG ON JS-->
+	<script>
+		window.onload = function() {
+			if(!window.location.hash) {
+				window.location = window.location + '#home';
+				window.location.reload();
+			}
+		}
+	</script>
+
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">

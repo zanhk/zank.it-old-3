@@ -537,7 +537,7 @@ a:hover {
 .nav-but-wrap{ 
 	position: relative;
 	display: inline-block;
-	float: right;
+	float: right; /* FIXME: bug */
 	padding-left: 15px;
 	padding-top: 15px;
 	margin-top: 26px;
@@ -723,8 +723,8 @@ body.nav-active .cd-header.is-fixed {
 	-o-transform: translate3d(0, 100%, 0);
 	transform: translate3d(0, 100%, 0);
 }
-body.nav-active .cd-header.is-visible {
-}
+/*body.nav-active .cd-header.is-visible { FIXME: bug
+}*/
 body.nav-active .menu-icon__line {
 	background-color: #fff;
 	-webkit-transform: translate(0px, 0px) rotate(-45deg);
@@ -2061,8 +2061,8 @@ figure.vimeo a img, figure.youtube a img {
 	display: block;
 	padding: 2.5rem;
 }
-.sidebar-box h6{
-}
+/*.sidebar-box h6{ FIXME: bug
+}*/
 .list-style {
 	margin: 0;
 	list-style: none;
@@ -2418,8 +2418,8 @@ figure.vimeo a img, figure.youtube a img {
     transition: all 0.3s linear, opacity 0.15s ease-out;
     z-index: 9; 
 }
-.nice-select .list:hover .option:not(:hover) {
-}
+/*.nice-select .list:hover .option:not(:hover) { FIXME: bug
+}*/
 .nice-select .option {
     cursor: pointer;
     font-weight: 400;

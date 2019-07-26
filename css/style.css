@@ -84,7 +84,8 @@ mark{
 	font-weight: 300;
 }
 
-/* skillbar -------------------------------------------*/
+/* skillbar 
+==================================================*/
 
 .skillbar-container {
 	position:relative;
@@ -103,7 +104,8 @@ mark{
 	width:0px;
 }
 
-/* callout -------------------------------------------*/
+/* callout 
+==================================================*/
 
 .callout {
 	position: fixed;
@@ -119,13 +121,11 @@ mark{
 	color: black
 }
 
+/* callout hide timer--------------------------------
 #hideMe {
     -moz-animation: cssAnimation 0s ease-in 5s forwards;
-    /* Firefox */
     -webkit-animation: cssAnimation 0s ease-in 5s forwards;
-    /* Safari and Chrome */
     -o-animation: cssAnimation 0s ease-in 5s forwards;
-    /* Opera */
     animation: cssAnimation 0s ease-in 5s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -138,6 +138,7 @@ mark{
     0%   {opacity: 1;}
     100% {opacity: 0;}
 }
+*/
 
 /* #Preloader style
 ================================================== */
